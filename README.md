@@ -2,7 +2,7 @@
 
 - A filter for extracting atomic keyword from queried sentence
 
-Usage
+*Usage*
 
 ```java
 import java.util.HashMap;
@@ -36,3 +36,13 @@ public class AppMain {
     }
 }
 ```
+
+*Output*
+```sh
+검색키워드 [대한민국 서울 학동 과일 배 사과]
+추출키워드 [배 사과]
+
+Process finished with exit code 0
+```
+
+> This project is made for supplement of search engine developed by RICHWARE SYSTEMS(C)
