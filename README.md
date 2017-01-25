@@ -2,6 +2,12 @@
 
 - A filter for extracting atomic keyword from queried sentence
 
+*Conception*
+
+> This filter excludes the word token which is enclosing some other keyword.
+> Therefore, a word list that has been applied this filter will consist of atomic keyword(Lowest Range).
+> By this filter, the efficiency of search engine will be increased since the amount of words to search is small.
+
 *Usage*
 
 ```java
