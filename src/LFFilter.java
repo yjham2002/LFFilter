@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class LFFilter {
 
@@ -25,6 +23,12 @@ public class LFFilter {
                         if(retVal.getWords().get(i).getNorWord().equals(b.w1)) retVal.getWords().remove(i);
                 }
         }
+        Collections.sort(retVal.getWords(), new Comparator<Word>() {
+            @Override
+            public int compare(Word o1, Word o2) {
+                return o1.getNorWord().compareTo(o2.getNorWord());
+            }
+        });
         return retVal;
     }
 

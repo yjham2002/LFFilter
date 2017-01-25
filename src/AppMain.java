@@ -13,7 +13,6 @@ public class AppMain {
         wordSet.addWord(new Word("사과", "사과", 0));
 
         Map<String,Integer> map = new HashMap<>();
-        map.put("학동,배", 0);
         map.put("과일,사과", 0);
         map.put("과일,배", 0);
         map.put("대한민국,서울", 0);
